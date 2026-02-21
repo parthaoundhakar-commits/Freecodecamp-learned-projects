@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+                <html lang="en"> 
+                    <head> 
+                        <meta charset="UTF-8"> 
+                        <title>Survey Form</title> 
+                        <style> 
+                            body { 
+                                font-family: Arial, 
+                                sans-serif; 
+                                background: #fff; 
+                                color:#000; 
+                                padding:20px; 
+                            } 
+                            input, select, textarea, button { 
+                                width:100%; 
+                                padding:8px; 
+                                margin:5px 0; 
+                                border-radius:5px; 
+                                border:1px solid #ccc; 
+                            } 
+                            button { 
+                                background:#00f5ff; 
+                                color:#000; 
+                                border:none; 
+                                cursor:pointer; 
+                                border-radius:5px; 
+                            } 
+                        </style> 
+                    </head> 
+                    <body> 
+                        <h2>Survey Form</h2> 
+                        <form> 
+                            <input type="text" placeholder="Name" required> 
+                            <input type="email" placeholder="Email" required> 
+                            <input type="number" placeholder="Number" required> 
+                            <select> 
+                                <option>Option 1</option> 
+                                <option>Option 2</option> 
+                            </select> 
+                            <fieldset> 
+                                <legend>Fruit</legend> 
+                                <label><input type="radio" name="fruit"> Apple</label> 
+                                <label><input type="radio" name="fruit"> Banana</label> 
+                            </fieldset> 
+                            <fieldset> 
+                                <legend>Hobbies</legend> 
+                                <label><input type="checkbox"> Reading</label> 
+                                <label><input type="checkbox"> Traveling</label> 
+                            </fieldset> 
+                            <textarea placeholder="Comments"></textarea> 
+                            <button type="submit">Submit</button> 
+                        </form> 
+                    </body> 
+                    </html> 
